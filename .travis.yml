@@ -39,8 +39,8 @@ deploy:
     bucket: zzikza-springboot-build #S3 버킷
     key: freelec-springboot2-webservice.zip #빌드 파일을 압축해서 전달
     bundle_type: zip
-    application: freelec-springboot2-webservice
-    deployment_group: freelec-springboot2-webservice-group
+    application: zzikza-service
+    deployment_group: zzikza-service-group
     region: ap-northeast-2
     wait-util-deployed: true
 # CI 실행 완료 시 메일로 알람
